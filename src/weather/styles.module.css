@@ -1,0 +1,47 @@
+.weather_card {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 500px;
+    border: 4px dotted red;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+.headText {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: blue;
+    text-align: center;
+    margin: 5px;
+}
+
+.search_box {
+    width: 500px;
+    height: 45px;
+    display: flex;
+    align-self: center;
+    border: 2px solid rgba(0, 0, 0, .4);
+    margin: 5px;
+    text-align: center;
+}
+
+.search_box:hover {
+    border: 2px solid rgba(0, 0, 255, .4);
+}
+
+
+
+.validCityWarn {
+    height: 65px;
+    width: 85%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: red;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
